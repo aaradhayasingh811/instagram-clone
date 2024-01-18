@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.body{
+    background-color: black;
+    /* height: 100vh; */
+}
+
+.bold{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.small{
+    font-size: 0.5rem;
+    font-weight: 200;
+
+}
+
+.linki a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-decoration-line: none;
+    color: rgb(77, 161, 251);
+}
+
+.linki a:hover{
+    color: white;
+}
+
+.see {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.see:hover{
+    text-decoration: none;
+    color:gray;
+}
+
+/* left portion */
+.left{
+    height: 100vh;
+    border-right: 1px solid white;
+    position: fixed;
+}
+
+.middle{
+    margin-left: auto;
+}
+
+.content h3{
+    font-family: -apple-system, -apple-system,  
+                BlinkMacSystemFont, 'Segoe UI', Roboto,  
+                Oxygen, Ubuntu, Cantarell, 'Open Sans',  
+                'Helvetica Neue', sans-serif; 
+    font-family: 'Cookie', cursive;
+    font-family: 'Sacramento', cursive;
+    padding: 2rem 0;
+}
+
+.content a{
+    font-size: 1rem;
+    align-items: center;
+    /* padding-bottom: 1.8rem; */
+    padding: 1rem 0;
+    text-decoration: none;
+    color: white;
+}
+.content .last{
+    /* padding-top: 5rem; */
+    margin-top: 3rem;
+}
+
+.content a:hover{
+    background-color: rgba(43, 41, 41, 0.408);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.main-profile{
+    display:flex ;
+    align-items: center;
+}
+
+.all-links {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+.all-links a{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    text-decoration: none;
+    padding: 0;
+}
+
+.all-links a:hover{
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.all-links .col{
+    padding: 0.3rem;
+}
+
+/* middle */
+
+.post{
+    margin: 3rem 25%;
+}
+
+.post .username a{
+    text-decoration: none;
+    color: white;
+}
+
+.story{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+}
+
+.story:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width: 976px) {
+    .right {
+        display: none;
+
+    }
+    .middle{
+        margin-left: auto;
+    }
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media only screen and (max-width: 766px) {
+    .left {
+        display: none;
+    }
+    .middle{
+        width: 100%;
+    }
+    .post p{
+        font-size: 0.8rem;
+    }
+  }
+
+  .all_story {
+    width: auto;
+    height: 4rem;
+    overflow: hidden;
+  }
+
+ 
